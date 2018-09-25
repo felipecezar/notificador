@@ -54,6 +54,7 @@ FIREBASE_MESSAGING.onMessage((payload)=>{
     toast_icone.innerHTML = "<img src=\"https://pbs.twimg.com/profile_images/1532886460/He-man_400x400.jpg\" width=\"50px\" height=\"50px\">";
 
     toast.className = "show";
+    
     setTimeout(()=>{
         toast.className = toast.className.replace("show", ""); 
         }, 5000);
